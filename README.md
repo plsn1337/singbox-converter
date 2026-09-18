@@ -29,6 +29,11 @@ You can pass the links directly in the path (also separated by `|`):
 https://your-worker.workers.dev/https://example.com/sub1|https://example.com/sub2
 ```
 
+### Method 3: Standart
+```text
+https://your-worker.workers.dev/?subs=https://example.com/sub1
+```
+
 > 💡 **Tip:** If you paste the link into a browser, the `|` symbol might automatically encode as `%7C`. The script understands this and handles it correctly.
 
 ## 🛠 Installation & Deploy
@@ -87,6 +92,11 @@ https://твой-воркер.workers.dev/?subs=https://example.com/sub1|https:/
 
 ```text
 https://твой-воркер.workers.dev/https://example.com/sub1|https://example.com/sub2
+```
+
+### Способ 3: Обычный
+```text
+https://your-worker.workers.dev/?subs=https://example.com/sub1
 ```
 
 > 💡 **Совет:** Если ты вставляешь ссылку в браузер, символ `|` может автоматически закодироваться как `%7C`. Скрипт это понимает и обработает корректно.
